@@ -2,7 +2,9 @@
 
 # Hey There!<img src="./img/wave.gif" width="50px">I am Louis Young<img src="./img/fox.gif" width=90px>
 
-![VisitorCount](https://profile-counter.glitch.me/{louisyoungx}/count.svg)
+<div align="center">
+<img src="https://profile-counter.glitch.me/{louisyoungx}/count.svg" /> 
+</div>
 
 ## 🤵 About Me
 
