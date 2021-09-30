@@ -26,8 +26,10 @@ My name is **Louis Young**, I'm 22 years old and I'm a student of *Computer Scie
 
 ## 💻 Hobbies
 - 📷 Photography 📸 
-- 💾 Home Lab
-- ⭐️ Participate In Open Source Projects
+- 🎨 Painting 🖌
+- 📖 Light Reading 🖋
+- 💾 Home Lab ⌨️
+- 💫 Participate In Open Source Projects ✨
 
 <!-- 关于我的一些编程信息,例如Github状态,Github仓库内编程语言使用情况统计,常用的编程语言,常用的编程框架和IDE工具,Github粉丝点赞访客 -->
 
