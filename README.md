@@ -42,7 +42,7 @@ My name is **Louis Young**, I'm 22 years old and I'm a student of *Computer Scie
 
 <!-- 常用的编程语言 -->
 
-<img align="right" width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=louisyoungx&theme=light&show_icons=true" alt="my github stats" width="420"/>
+<img align="right" width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=louisyoungx&theme=light&show_icons=true&hide=Jupyter-Notebook" alt="my github stats" width="420"/>
 
 <p align ="left">
   <br />
@@ -59,6 +59,7 @@ My name is **Louis Young**, I'm 22 years old and I'm a student of *Computer Scie
   <code><img width="10%"  src="https://www.vectorlogo.zone/logos/nodejs/nodejs-ar21.svg"></code>
   <br>
 </p> 
+
 
 
 ![Vue](https://img.shields.io/badge/Vue.js-316192?style=for-the-badge&logo=Vue.js&logoColor=white)
