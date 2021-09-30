@@ -36,9 +36,9 @@ My name is **Louis Young**, I'm 22 years old and I'm a student of **Computer Sci
 
 <!-- 常用的编程语言 -->
 
-<img align="left" width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=louisyoungx&theme=light&show_icons=true" alt="my github stats" width="420"/>
+<img align="right" width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=louisyoungx&theme=light&show_icons=true" alt="my github stats" width="420"/>
 
-<p align ="right">
+<p align ="left">
   <br />
   <code><img width="10%"  src="https://www.vectorlogo.zone/logos/vuejs/vuejs-ar21.svg"></code>
 	<code><img width="10%"   src="https://www.vectorlogo.zone/logos/python/python-ar21.svg"></code>
@@ -54,7 +54,9 @@ My name is **Louis Young**, I'm 22 years old and I'm a student of **Computer Sci
   <br>
 </p> 
 
-<br />
+  
+
+
 
 ## 📬 Get In Touch
 
