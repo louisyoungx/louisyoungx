@@ -12,7 +12,7 @@
 <img src="./img/cat.gif" width="150"/> 
 </div>
 
-My name is **Louis Young**, I'm 22 years old and I'm a student of **Computer Science** at Nanchang Hangkong University (**NCHU**) in China.
+My name is **Louis Young**, I'm 22 years old and I'm a student of **Computer Science** at Nanchang Hangkong University (**NCHU**) in China 🇨🇳.
 
 
 
