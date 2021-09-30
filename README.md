@@ -2,9 +2,11 @@
 
 # Hey There!<img src="./img/wave.gif" width="50px">I am Louis Young<img src="./img/fox.gif" width=90px>
 
+![VisitorCount](https://profile-counter.glitch.me/{louisyoungx}/count.svg)
+
 ## 🤵 About Me
 
-<img align= "center" width= "250" src= "./img/cat.gif"/>
+<img src="./img/cat.gif" alt="TOP" style="zoom:70%;" />
 
 My name is **Louis Young**, I'm 22 years old and I'm a student of **Computer Science** at Nanchang Hangkong University (**NCHU**) in China.
 
@@ -22,15 +24,17 @@ My name is **Louis Young**, I'm 22 years old and I'm a student of **Computer Sci
 ## 🏆 Github Status
 <!-- Github状态 -->
 
+![Profile views](https://gpvc.arturio.dev/louisyoungx)
+
 <p align="left">
 <img src="https://github-readme-stats.vercel.app/api?username=louisyoungx&show_icons=true&theme=tokyonight" alt="my github stats" width="420"/>
 </P>
 
 <!-- Github仓库内编程语言使用情况统计 -->
 
-<!-- 常用的编程语言 -->[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=louisyoungx&hide=html)](https://github.com/anuraghazra/github-readme-stats)
+<!-- 常用的编程语言 -->
 
-
+<img align="left" width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=louisyoungx&theme=light&show_icons=true" alt="my github stats" width="420"/>
 
 <p align ="right">
   <br />
