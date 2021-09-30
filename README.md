@@ -6,7 +6,9 @@
 
 ## 🤵 About Me
 
-<img src="./img/cat.gif" alt="TOP" style="zoom:70%;" />
+<div align="center">
+<img src="./img/cat.gif" width="150"/> 
+</div>
 
 My name is **Louis Young**, I'm 22 years old and I'm a student of **Computer Science** at Nanchang Hangkong University (**NCHU**) in China.
 
@@ -23,8 +25,6 @@ My name is **Louis Young**, I'm 22 years old and I'm a student of **Computer Sci
 
 ## 🏆 Github Status
 <!-- Github状态 -->
-
-![Profile views](https://gpvc.arturio.dev/louisyoungx)
 
 <p align="left">
 <img src="https://github-readme-stats.vercel.app/api?username=louisyoungx&show_icons=true&theme=tokyonight" alt="my github stats" width="420"/>
@@ -52,8 +52,27 @@ My name is **Louis Young**, I'm 22 years old and I'm a student of **Computer Sci
   <br>
 </p> 
 
+<br />
+
 ## 📬 Get In Touch
+
 <img align= "right" width= "250" src= "./img/rabbit.gif"/>
 
-[我的个人网站](https://www.louisyoung.work "Louis House")
+<!-- HomePage -->
+<a href="https://louisyoung.work/" target="_blank"> 
+<img src="https://img.shields.io/badge/个人网站-Louis%20House-red">
+</a>
+</br>
+<!-- Github -->
+<a href="https://github.com/louisyoungx" target="_blank"> 
+<img src="https://img.shields.io/badge/Github-louisyoungx-%2324292F">
+</a>
+</br>
+<!-- Gitee -->
+<a href="https://gitee.com/louisyoungx" target="_blank"> 
+<img src="https://img.shields.io/badge/Gitee-louisyoungx-%23C71D23">
+</a>
+</br>
+
+
 
