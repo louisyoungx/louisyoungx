@@ -1,4 +1,4 @@
-<!-- 欢迎界面并展示访问次数 -->
+<!-- Welcome Section -->
 
 # Hey There!<img src="./img/wave.gif" width="50px">I am Louis Young<img src="./img/fox.gif" width=90px>
 
@@ -14,15 +14,14 @@
 
 My name is **Louis Young**, I'm 22 years old and I'm a student of *Computer Science* at *Nanchang Hangkong University* (**NCHU**) in China 🇨🇳.
 
-* 22 year old *Computer Science* at *Nanchang Hangkong University* student 🎓
-* Web Frontend Developer 🌐
-* Full Stack Enthusiast  👨‍💻
-* Vue & Django ❤
-* Loves to Code 👨‍💻
+* 🔭 I'm mainly working on Web develop and Python develop.
+* 🧐 I'm also learning TypeScript, React and Vue.
+* 👾 I'm currently interested in constructing buildings in Minecraft.
+* 🌭 My dream: `while(sleeping){money++;}`
 
 
 
-<!-- 我的一些兴趣爱好信息 -->
+<!-- Hobbies Section -->
 
 ## 💻 Hobbies
 - 📷 Photography 📸 
@@ -31,7 +30,7 @@ My name is **Louis Young**, I'm 22 years old and I'm a student of *Computer Scie
 - 💾 Home Lab ⌨️
 - 💫 Participate In Open Source Projects ✨
 
-<!-- 关于我的一些编程信息,例如Github状态,Github仓库内编程语言使用情况统计,常用的编程语言,常用的编程框架和IDE工具,Github粉丝点赞访客 -->
+<!-- Some information about my programming, such as Github status, Github repository language usage statistics, common programming languages, common programming frameworks and IDE tools, Github fan likes visitors -->
 
 ## 🏆 Github Status
 <!-- Github状态 -->
@@ -61,7 +60,6 @@ My name is **Louis Young**, I'm 22 years old and I'm a student of *Computer Scie
   <code><img width="10%"  src="https://www.vectorlogo.zone/logos/nodejs/nodejs-ar21.svg"></code>
   <br>
 </p> 
-
 
 
 ![Vue](https://img.shields.io/badge/Vue.js-37ADB9?style=for-the-badge&logo=Vue.js&logoColor=white)
