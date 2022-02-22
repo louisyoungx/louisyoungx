@@ -16,8 +16,9 @@ My name is **Louis Young**, I'm 22 years old and I'm a student of *Computer Scie
 
 * 🔭 I'm mainly working on Web develop and Python develop.
 * 🧐 I'm also learning TypeScript, React and Vue.
-* 👾 I'm currently interested in constructing buildings in Minecraft.
-* 🌭 My dream: `while(sleeping){money++;}`
+* 👾 I love Minecraft. [You might like it ?](https://github.com/louisyoungx/bedrock-server-backup)
+* 🌭 My dream: `Go to US for CS Master next year` & `while(sleeping){money++;}`
+* ⭐️ Big fan of [Renovamen](https://github.com/Renovamen).
 
 
 
