@@ -12,7 +12,7 @@
 <img src="./img/cat.gif" width="150"/> 
 </div>
 
-My name is **Louis Young**, I'm 22 years old and I'm a student of *Computer Science* at *Nanchang Hangkong University* (**NCHU**) in China 🇨🇳.
+My name is **Louis Young**, I'm 23 years old and I'm a student of *Computer Science* at *Nanchang Hangkong University* (**NCHU**) in China 🇨🇳.
 
 * 🔭 I'm mainly working on Web develop and Python develop.
 * 🧐 I'm also learning TypeScript, React and Vue.
