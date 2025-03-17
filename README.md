@@ -84,8 +84,8 @@ My name is **Louis Young**, I'm 23 years old and I'm a student of *Computer Scie
 <img align= "right" width= "250" src= "./img/rabbit.gif"/>
 
 <!-- HomePage -->
-<a href="https://louisyoung.work/" target="_blank"> 
-<img src="https://img.shields.io/badge/Blog-Louis%20House-red">
+<a href="https://loui.cc" target="_blank"> 
+<img src="https://img.shields.io/badge/Blog-loui.cc-blue">
 </a>
 </br>
 <!-- Github -->
