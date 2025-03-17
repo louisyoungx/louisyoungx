@@ -12,10 +12,11 @@
 <img src="./img/cat.gif" width="150"/> 
 </div>
 
-My name is **Louis Young**, I'm 23 years old and I'm a student of *Computer Science* at *Nanchang Hangkong University* (**NCHU**) in China 🇨🇳.
+My name is **Louis Young**, born in 2000, a **Senior Web Development Engineer** dedicated to building AI-powered web solutions 🤖️ at **ByteDance** 🚀. I graduated from **NCHU** in China 🇨🇳 with a Degree in *Computer Science*, and I'm passionate about exploring AI-driven frontend innovations.
 
 * 🔭 I'm mainly working on Web develop and Python develop.
 * 🧐 I'm also learning TypeScript, React and Vue.
+* 👩‍💻 My personal website is 👉🏻 [loui.cc](https://loui.cc)
 * 👾 I love Minecraft. [You might like it ?](https://github.com/louisyoungx/bedrock-server-backup)
 * 🌭 My dream: `Go to US for CS Master next year` & `while(sleeping){money++;}`
 * ⭐️ Big fan of [Renovamen](https://github.com/Renovamen).
