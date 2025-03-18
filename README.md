@@ -15,7 +15,7 @@
 My name is **Louis Young**, born in 2000, a **Senior Web Development Engineer** dedicated to building AI-powered web solutions 🤖️ at **ByteDance** 🚀. I graduated from **NCHU** in China 🇨🇳 with a Degree in *Computer Science*, and I'm passionate about exploring AI-driven frontend innovations.
 
 * 🔭 I'm mainly working on Web frontend develop and Python fullstack develop.
-* 🧐 I'm also learning TypeScript, React and Vue.
+* 🧐 I'm proficient in TypeScript & React, also learning AI.
 * 👩‍💻 My personal website is 👉🏻 [loui.cc](https://loui.cc)
 * 👾 I love Minecraft. [You might like it ?](https://github.com/louisyoungx/bedrock-server-backup)
 * 🌭 My dream: `Go to US for CS Master next year` & `while(sleeping){money++;}`
