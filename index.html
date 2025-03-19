@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="zh">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Louis Young</title>
+        <link rel="icon" type="image/x-icon" href="./img/favicon.ico" />
+        <link
+            rel="shortcut icon"
+            type="image/x-icon"
+            href="./img/favicon.ico"
+        />
+        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+        <style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
+                    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+                    'Helvetica Neue', sans-serif;
+                line-height: 1.5;
+                margin: 0;
+                padding: 0;
+                background-color: #ffffff;
+                color: #24292f;
+            }
+            .layout {
+                display: flex;
+                max-width: 1280px;
+                margin: 0 auto;
+                padding: 0 32px;
+            }
+            .sidebar {
+                width: 296px;
+                position: sticky;
+                top: 0;
+                height: 100vh;
+                overflow-y: auto;
+                flex-shrink: 0;
+            }
+            .sidebar-profile {
+                text-align: left;
+                margin-bottom: 16px;
+                padding-top: 32px;
+            }
+            .sidebar-profile img {
+                width: 290px;
+                height: 290px;
+                border-radius: 50%;
+                margin-bottom: 16px;
+                border: 1px solid #d0d7de;
+                box-shadow: 0 0 0 1px rgba(27, 31, 36, 0.15);
+                display: block;
+            }
+            .sidebar-name {
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 1.25;
+                margin-bottom: 4px;
+                color: #24292f;
+            }
+            .sidebar-username {
+                margin-bottom: 16px;
+            }
+            .sidebar-username a {
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 24px;
+                color: #57606a;
+            }
+            .sidebar-bio {
+                font-size: 16px;
+                margin-bottom: 16px;
+                color: #24292f;
+            }
+            .sidebar-info {
+                margin-top: 16px;
+                border-top: 1px solid #d8dee4;
+                padding-top: 16px;
+                font-size: 14px;
+            }
+            .info-item {
+                display: flex;
+                align-items: center;
+                margin-bottom: 8px;
+                color: #24292f;
+            }
+            .info-item svg {
+                margin-right: 8px;
+                fill: #57606a;
+                flex-shrink: 0;
+            }
+            .info-item a {
+                color: #24292f;
+                text-decoration: none;
+            }
+            .info-item a:hover {
+                color: #0969da;
+                text-decoration: none;
+            }
+            .sidebar-stats {
+                border-top: 1px solid #d8dee4;
+                padding-top: 16px;
+                font-size: 14px;
+            }
+            .stat-item {
+                display: flex;
+                align-items: center;
+                padding: 4px 0;
+                color: #24292f;
+                text-decoration: none;
+                font-size: 14px;
+            }
+            .stat-item:hover {
+                color: #0969da;
+            }
+            .stat-item svg {
+                margin-right: 8px;
+                fill: currentColor;
+                flex-shrink: 0;
+            }
+            .main-content {
+                flex-grow: 1;
+                padding: 32px 32px 32px 64px;
+                max-width: 900px;
+            }
+            .container {
+                background-color: #ffffff;
+                padding: 40px;
+                border: 1px solid #d0d7de;
+                border-radius: 6px;
+            }
+            h1,
+            h2 {
+                margin-top: 24px;
+                margin-bottom: 16px;
+                font-weight: 600;
+                line-height: 1.25;
+                color: #24292f;
+                border-bottom: 1px solid #d8dee4;
+                padding-bottom: 8px;
+            }
+            .header {
+                text-align: center;
+                margin-bottom: 40px;
+            }
+            .profile-counter {
+                text-align: center;
+                margin: 20px 0;
+            }
+            .about-section {
+                display: flex;
+                align-items: flex-start;
+                gap: 30px;
+                margin: 30px 0;
+            }
+            .skills {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 10px;
+                margin: 20px 0;
+            }
+            .badge {
+                padding: 8px 16px;
+                border-radius: 5px;
+                background-color: #0366d6;
+                color: white;
+                font-size: 14px;
+                display: inline-block;
+            }
+            .contact {
+                margin-top: 40px;
+            }
+            .contact a {
+                display: block;
+                margin: 10px 0;
+                color: #0366d6;
+                text-decoration: none;
+            }
+            .contact a:hover {
+                text-decoration: underline;
+            }
+            img {
+                max-width: 100%;
+                height: auto;
+                border-style: none;
+            }
+            .stats {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                gap: 20px;
+                margin: 30px 0;
+            }
+            .tech-stack {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 15px;
+                margin: 20px 0;
+            }
+            .tech-stack img {
+                height: 40px;
+            }
+            code {
+                background-color: rgba(175, 184, 193, 0.2);
+                padding: 0.2em 0.4em;
+                border-radius: 6px;
+                font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo,
+                    Consolas, Liberation Mono, monospace;
+                font-size: 85%;
+            }
+            a {
+                color: #0969da;
+                text-decoration: none;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+            /* GitHub-style table */
+            table {
+                border-collapse: collapse;
+                width: 100%;
+                margin: 16px 0;
+            }
+            th,
+            td {
+                border: 1px solid #dfe2e5;
+                padding: 6px 13px;
+            }
+            th {
+                background-color: #f6f8fa;
+            }
+            tr:nth-child(2n) {
+                background-color: #f6f8fa;
+            }
+            /* Center align specific elements */
+            div[align='center'] {
+                text-align: center;
+            }
+            /* Adjust image alignment */
+            img[align='right'] {
+                float: right;
+                margin: 0 0 20px 20px;
+            }
+            @media (max-width: 1012px) {
+                .layout {
+                    flex-direction: column;
+                    padding: 0 16px;
+                }
+                .sidebar {
+                    width: 100%;
+                    height: auto;
+                    position: static;
+                    padding: 16px 0;
+                }
+                .main-content {
+                    padding: 16px 0;
+                }
+                .sidebar-profile {
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    padding-top: 16px;
+                }
+                .sidebar-profile img {
+                    width: 84px;
+                    height: 84px;
+                    margin-right: 16px;
+                    margin-bottom: 0;
+                }
+                .sidebar-profile-info {
+                    flex: 1;
+                    min-width: 0;
+                }
+                .sidebar-name {
+                    font-size: 20px;
+                    margin-bottom: 2px;
+                }
+                .sidebar-username {
+                    margin-bottom: 8px;
+                }
+                .sidebar-username a {
+                    font-size: 16px;
+                }
+                .sidebar-bio {
+                    width: 100%;
+                    margin-top: 16px;
+                    margin-bottom: 8px;
+                }
+            }
+            @media (max-width: 768px) {
+                .layout {
+                    padding: 0 16px;
+                }
+                .container {
+                    padding: 24px 16px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="layout">
+            <aside class="sidebar">
+                <div class="sidebar-profile">
+                    <img
+                        src="./img/avatar.jpg"
+                        alt="Louis Young"
+                        onerror="this.src='./img/cat.gif'"
+                    />
+                    <div class="sidebar-profile-info">
+                        <div class="sidebar-name">Louis Young</div>
+                        <div class="sidebar-username">
+                            <a
+                                href="https://github.com/louisyoungx"
+                                target="_blank"
+                                >@louisyoungx</a
+                            >
+                        </div>
+                    </div>
+                    <div class="sidebar-bio">
+                        Web & Python Developer, Coding for fun.
+                    </div>
+                </div>
+                <div class="sidebar-info">
+                    <div class="info-item">
+                        <svg height="16" viewBox="0 0 16 16" width="16">
+                            <path
+                                d="M1.75 16A1.75 1.75 0 0 1 0 14.25V1.75C0 .784.784 0 1.75 0h8.5C11.216 0 12 .784 12 1.75v12.5c0 .085-.006.168-.018.25h2.268a.25.25 0 0 0 .25-.25V8.285a.25.25 0 0 0-.111-.208l-1.055-.703a.749.749 0 1 1 .832-1.248l1.055.703c.487.325.779.871.779 1.456v5.965A1.75 1.75 0 0 1 14.25 16h-3.5a.766.766 0 0 1-.197-.026c-.099.017-.2.026-.303.026h-3a.75.75 0 0 1-.75-.75V14h-1v1.25a.75.75 0 0 1-.75.75Zm-.25-1.75c0 .138.112.25.25.25H4v-1.25a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 .75.75v1.25h2.25a.25.25 0 0 0 .25-.25V1.75a.25.25 0 0 0-.25-.25h-8.5a.25.25 0 0 0-.25.25ZM3.75 6h.5a.75.75 0 0 1 0 1.5h-.5a.75.75 0 0 1 0-1.5ZM3 3.75A.75.75 0 0 1 3.75 3h.5a.75.75 0 0 1 0 1.5h-.5A.75.75 0 0 1 3 3.75Zm4 3A.75.75 0 0 1 7.75 6h.5a.75.75 0 0 1 0 1.5h-.5A.75.75 0 0 1 7 6.75ZM7.75 3h.5a.75.75 0 0 1 0 1.5h-.5a.75.75 0 0 1 0-1.5ZM3 9.75A.75.75 0 0 1 3.75 9h.5a.75.75 0 0 1 0 1.5h-.5A.75.75 0 0 1 3 9.75ZM7.75 9h.5a.75.75 0 0 1 0 1.5h-.5a.75.75 0 0 1 0-1.5Z"
+                            ></path>
+                        </svg>
+                        <a href="https://github.com/bytedance" target="_blank">
+                            <strong>@ByteDance</strong>
+                        </a>
+                    </div>
+                    <div class="info-item">
+                        <svg height="16" viewBox="0 0 16 16" width="16">
+                            <path
+                                d="m12.596 11.596-3.535 3.536a1.5 1.5 0 0 1-2.122 0l-3.535-3.536a6.5 6.5 0 1 1 9.192-9.193 6.5 6.5 0 0 1 0 9.193Zm-1.06-8.132v-.001a5 5 0 1 0-7.072 7.072L8 14.07l3.536-3.534a5 5 0 0 0 0-7.072ZM8 9a2 2 0 1 1-.001-3.999A2 2 0 0 1 8 9Z"
+                            ></path>
+                        </svg>
+                        <span>Hangzhou,Zhejiang,China</span>
+                    </div>
+                    <div class="info-item">
+                        <svg height="16" viewBox="0 0 16 16" width="16">
+                            <path
+                                d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"
+                            ></path>
+                        </svg>
+                        <a href="https://loui.cc" target="_blank"
+                            >https://loui.cc</a
+                        >
+                    </div>
+                    <div class="info-item">
+                        <svg height="16" viewBox="0 0 16 16" width="16">
+                            <path
+                                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"
+                            ></path>
+                        </svg>
+                        <a href="https://github.com/louisyoungx" target="_blank"
+                            >@louisyoungx</a
+                        >
+                    </div>
+                </div>
+            </aside>
+            <main class="main-content">
+                <div class="container" id="content">
+                    <!-- Content will be loaded here -->
+                    <div style="text-align: center">Loading...</div>
+                </div>
+            </main>
+        </div>
+
+        <script>
+            // 配置 marked 选项
+            marked.setOptions({
+                breaks: true,
+                gfm: true,
+            })
+
+            // 获取并渲染 README.md 内容
+            fetch('./README.md')
+                .then(response => response.text())
+                .then(markdown => {
+                    // 将 Markdown 转换为 HTML
+                    const html = marked.parse(markdown)
+                    document.getElementById('content').innerHTML = html
+
+                    // 处理图片加载错误
+                    document.querySelectorAll('img').forEach(img => {
+                        img.onerror = function () {
+                            // 如果图片加载失败，尝试使用相对路径
+                            if (!this.src.startsWith('http')) {
+                                const newSrc = './' + this.src.split('/').pop()
+                                this.src = newSrc
+                            }
+                        }
+                    })
+                })
+                .catch(error => {
+                    console.error('Error loading README.md:', error)
+                    document.getElementById('content').innerHTML =
+                        '<p>Error loading content. Please make sure README.md exists in the same directory.</p>'
+                })
+        </script>
+    </body>
+</html>
