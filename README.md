@@ -68,15 +68,10 @@ My name is **Louis Young**, born in 2000, a **Senior Web Development Engineer** 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JS](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-563D7C?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=darkgreen)
 ![Django](https://img.shields.io/badge/-django-darkgreen?style=for-the-badge&logo=django&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-563D7C?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![ElementUI](https://img.shields.io/badge/element-0081CB?style=for-the-badge&logo=element&logoColor=white)
 ![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
-![Django Rest Framework](https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=darkgreen)
-![GraphQL](https://img.shields.io/badge/GraphQl-E10098?style=for-the-badge&logo=graphql&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white)
-![VSCode](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
 
 
 
@@ -86,7 +81,7 @@ My name is **Louis Young**, born in 2000, a **Senior Web Development Engineer** 
 
 <!-- HomePage -->
 <a href="https://loui.cc" target="_blank"> 
-<img src="https://img.shields.io/badge/Blog-loui.cc-blue">
+<img src="https://img.shields.io/badge/Website-loui.cc-blue">
 </a>
 </br>
 <!-- Github -->
